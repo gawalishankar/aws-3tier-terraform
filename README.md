@@ -18,7 +18,14 @@ Internet
 
 ## ☁️ Services and Tools Used
 
-Amazon VPC, Public Subnet, Internet Gateway, Route Table, Security Groups, EC2 (Amazon Linux 2), Terraform (Infrastructure as Code), AWS CLI
+- Amazon VPC
+- Public Subnet 
+- Internet Gateway
+- Route Table
+- Security Groups
+- EC2 (Amazon Linux 2)
+- Terraform (Infrastructure as Code)
+- AWS CLI
 
 ---
 
@@ -34,7 +41,11 @@ Amazon VPC, Public Subnet, Internet Gateway, Route Table, Security Groups, EC2 (
 
 ## ⚙️ Prerequisites
 
-AWS account, Terraform installed, AWS CLI installed and configured, EC2 key pair created in AWS, Basic Linux knowledge
+- AWS account
+- Terraform installed
+- AWS CLI installed and configured
+- EC2 key pair created in AWS
+- Basic Linux knowledge
 
 Verify tools:
 ```bash
@@ -75,7 +86,6 @@ key_name = my-keypair
 Terraform will create: VPC, Public Subnet, Internet Gateway, Route Table, Security Group, EC2 instance with Nginx installed.
 
 ---
-
 ## 🌐 Access the Web Application
 ```bash
 After successful deployment, Terraform will output the EC2 public IP.
@@ -88,9 +98,9 @@ You should see the Nginx welcome page.
 
 ---
 
-## 🧹 Cleanup (Avoid AWS Charges)
+## 🧹 Cleanup
 ```bash
-### terraform destroy  
+terraform destroy  
 ```
 This deletes all AWS resources created by Terraform.
 ---
