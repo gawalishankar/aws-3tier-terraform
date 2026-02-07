@@ -37,11 +37,11 @@ Amazon VPC, Public Subnet, Internet Gateway, Route Table, Security Groups, EC2 (
 AWS account, Terraform installed, AWS CLI installed and configured, EC2 key pair created in AWS, Basic Linux knowledge
 
 Verify tools:
-
+```bash
 terraform -version  
 aws --version  
 aws configure  
-
+```
 ---
 
 ## 🛠 Setup & Deployment (Step-by-Step)
@@ -49,37 +49,39 @@ aws configure
 ### 1 Clone the repository:
 ```bash 
 git clone https://github.com/<your-username>/aws-terraform-infra.git  
+```
 cd aws-terraform-infra  
-```
+
 ### Initialize Terraform:
-
-### 2 terraform init  
 ```bash
-Validate configuration:
+terraform init  
 ```
-### 3 terraform validate  
+### Validate configuration:
 ```bash
-Review execution plan:
+terraform validate  
 ```
-### 4 terraform plan  
+### Review execution plan:
 ```bash
-Apply infrastructure:
+terraform plan  
 ```
-### 5 terraform apply  
+### Apply infrastructure:
 ```bash
-When prompted, enter your EC2 key pair name:
-
+terraform apply  
+```
+### When prompted, enter your EC2 key pair name:
+```bash
 key_name = my-keypair  
-
-Terraform will create: VPC, Public Subnet, Internet Gateway, Route Table, Security Group, EC2 instance with Nginx installed.
 ```
+Terraform will create: VPC, Public Subnet, Internet Gateway, Route Table, Security Group, EC2 instance with Nginx installed.
+
 ---
 
 ## 🌐 Access the Web Application
 ```bash
-After successful deployment, Terraform will output the EC2 public IP.  
+After successful deployment, Terraform will output the EC2 public IP.
+``` 
 ### Open in browser:
-
+```bash
 http://<EC2_PUBLIC_IP>
 ```
 You should see the Nginx welcome page.
@@ -89,9 +91,8 @@ You should see the Nginx welcome page.
 ## 🧹 Cleanup (Avoid AWS Charges)
 ```bash
 ### terraform destroy  
-
-This deletes all AWS resources created by Terraform.
 ```
+This deletes all AWS resources created by Terraform.
 ---
 
 ## 📌 Interview Explanation (What this project does)
