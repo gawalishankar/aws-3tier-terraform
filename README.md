@@ -47,10 +47,10 @@ aws configure
 ## 🛠 Setup & Deployment (Step-by-Step)
 
 ### 1 Clone the repository:
-bash 
+'''bash 
 git clone https://github.com/<your-username>/aws-terraform-infra.git  
 cd aws-terraform-infra  
-
+'''
 ### Initialize Terraform:
 
 ### 2 terraform init  
