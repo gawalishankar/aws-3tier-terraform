@@ -46,26 +46,26 @@ aws configure
 
 ## 🛠 Setup & Deployment (Step-by-Step)
 
-Clone the repository:
+### 1 Clone the repository:
 
 git clone https://github.com/<your-username>/aws-terraform-infra.git  
 cd aws-terraform-infra  
 
-Initialize Terraform:
+### Initialize Terraform:
 
-terraform init  
+### 2 terraform init  
 
 Validate configuration:
 
-terraform validate  
+### 3 terraform validate  
 
 Review execution plan:
 
-terraform plan  
+### 4 terraform plan  
 
 Apply infrastructure:
 
-terraform apply  
+### 5 terraform apply  
 
 When prompted, enter your EC2 key pair name:
 
@@ -78,7 +78,7 @@ Terraform will create: VPC, Public Subnet, Internet Gateway, Route Table, Securi
 ## 🌐 Access the Web Application
 
 After successful deployment, Terraform will output the EC2 public IP.  
-Open in browser:
+### Open in browser:
 
 http://<EC2_PUBLIC_IP>
 
@@ -88,7 +88,7 @@ You should see the Nginx welcome page.
 
 ## 🧹 Cleanup (Avoid AWS Charges)
 
-terraform destroy  
+### terraform destroy  
 
 This deletes all AWS resources created by Terraform.
 
