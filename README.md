@@ -52,19 +52,19 @@ git clone https://github.com/<your-username>/aws-terraform-infra.git
 ```
 cd aws-terraform-infra  
 
-### Initialize Terraform:
+### 2 Initialize Terraform:
 ```bash
 terraform init  
 ```
-### Validate configuration:
+### 3 Validate configuration:
 ```bash
 terraform validate  
 ```
-### Review execution plan:
+### 4 Review execution plan:
 ```bash
 terraform plan  
 ```
-### Apply infrastructure:
+### 5 Apply infrastructure:
 ```bash
 terraform apply  
 ```
