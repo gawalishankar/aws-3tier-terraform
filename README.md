@@ -95,21 +95,6 @@ You should see the Nginx welcome page.
 This deletes all AWS resources created by Terraform.
 ---
 
-## 📌 Interview Explanation (What this project does)
-
-This project uses Terraform to automate the creation of AWS infrastructure instead of manually creating resources in the AWS Console. It sets up a VPC with a public subnet, attaches an Internet Gateway for internet access, configures routing, secures access using Security Groups, and deploys an EC2 instance with Nginx installed automatically using user-data. This approach ensures repeatable, version-controlled, and scalable infrastructure provisioning.
-
----
-
-## 🎤 STAR Method (Interview Answer)
-
-Situation: Manual infrastructure setup is slow and error-prone.  
-Task: Automate AWS infrastructure provisioning in a repeatable way.  
-Action: Used Terraform to create VPC, networking, security groups, and EC2 with Nginx using user-data.  
-Result: Reduced setup time from manual steps to minutes and enabled reproducible infrastructure.
-
----
-
 ## 📄 License
 
 MIT License
