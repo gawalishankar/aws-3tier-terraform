@@ -105,7 +105,7 @@ You should see the Nginx welcome page.
 ```bash
 terraform destroy  
 ```
-This deletes all AWS resources created by Terraform.
+
 ---
 
 ---
