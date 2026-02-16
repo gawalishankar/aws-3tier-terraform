@@ -112,11 +112,11 @@ This deletes all AWS resources created by Terraform.
 
 1. User → ALB
 
-- Client opens browser
+-     Client opens browser
 
 2. ALB Routes → EC2
 
-- ALB sends HTTP to EC2
+-     ALB sends HTTP to EC2
 
 3. EC2 → Nginx
 
