@@ -16,16 +16,15 @@ Internet
 
 ---
 
-## ☁️ Services and Tools Used
 
-- Amazon VPC
-- Public Subnet 
-- Internet Gateway
-- Route Table
-- Security Groups
-- EC2 (Amazon Linux 2)
-- Terraform (Infrastructure as Code)
-- AWS CLI
+## Key Components
+- VPC with public and private subnets  
+- Internet Gateway  
+- Security Groups (least-privilege access)  
+- Application Load Balancer (ALB)  
+- EC2 Launch Template + Auto Scaling Group  
+- Amazon RDS (PostgreSQL)  
+- Terraform Remote Backend (S3 + DynamoDB for state locking)
 
 ---
 
