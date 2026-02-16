@@ -107,8 +107,6 @@ terraform destroy
 ```
 
 ---
-
----
 ## 📌 HOW IT WORKS END-TO-END
 
 1. User → ALB
