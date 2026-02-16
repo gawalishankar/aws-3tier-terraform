@@ -112,23 +112,23 @@ This deletes all AWS resources created by Terraform.
 
 1. User → ALB
 
--     Client opens browser
+       Client opens browser
 
 2. ALB Routes → EC2
 
--     ALB sends HTTP to EC2
+       ALB sends HTTP to EC2
 
 3. EC2 → Nginx
 
-- Nginx serves HTML content
+       Nginx serves HTML content
 
 4. Data → S3
 
-- Static assets can be stored here
+       Static assets can be stored here
 
 5. IAM Role Enables Access
 
-- EC2 can access S3 securely
+       EC2 can access S3 securely
 
 ## 📄 License
 
