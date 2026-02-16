@@ -108,6 +108,7 @@ terraform destroy
 This deletes all AWS resources created by Terraform.
 ---
 
+---
 📌 HOW IT WORKS END-TO-END
 
 1. User → ALB
