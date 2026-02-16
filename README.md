@@ -1,6 +1,10 @@
-# 🚀 AWS Cloud Infrastructure Setup using Terraform
+# AWS 3-Tier Architecture using Terraform
 
-This repository demonstrates how to provision a complete AWS cloud infrastructure using Terraform (Infrastructure as Code). The project automates the creation of networking, compute, and security resources, and deploys a simple Nginx web application on EC2. This project is ideal for DevOps freshers to learn real-world cloud provisioning and automation practices.
+## 📌 Overview
+This project demonstrates how to provision a **production-style 3-tier cloud architecture on AWS using Terraform (Infrastructure as Code)**.  
+The infrastructure includes a public web tier behind an Application Load Balancer (ALB), a private application tier using EC2 Auto Scaling, and a private database tier using Amazon RDS (PostgreSQL).
+
+The goal is to automate cloud infrastructure provisioning in a **repeatable, secure, and scalable** manner following real-world DevOps best practices.
 
 ---
 
